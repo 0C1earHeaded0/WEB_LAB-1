@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background-color: #07142b;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: "Open Sans";
+    font-size: 16px;
+    background-color: #173c4c;
+    padding: 20px;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav_items {
+    text-align: center;
+}
+
+.nav_items a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    margin: -2px;
+    transition: background-color 400ms linear;
+}
+
+.nav_items a:hover {
+    background-color: #07142b;
+}
+
+.content {
+    font-weight: 500;
+    display: block;
+    margin-top: 130px;
+    font-family: ubuntu;
+}
+
+.content .photo img {
+    border-radius: 300px;
+    margin-right: 300px;
+    width: 450px;
+    height: 450px;
+}
+
+.main_line {
+    display: flex;
+    align-items: center;
+}
+
+.main_block p {
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: inherit;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.main_block {
+    background-color: #326d6c;
+    background-size: 100% 50%;
+    margin-right: 100px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 10px;
+    font-size: 30px;
+    font-family: ubuntu;
+    padding: 25px 25px 25px 40px; 
+}
+
+.main_block h1 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.section {
+    margin-top: 74px;
+    padding: 0;
+}
+
+.section h2 {
+    color: #173c4c;
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph_header {
+    background-color: #ffffff;
+}
+
+.paragraph_text {
+    color: white;
+    text-align: justify;
+    text-indent: 80px;
+    font-size: 30px;
+    margin: 0 10% 0 10%;
+    padding-top: 25px;
+    line-height: 60px;
+}
+
+.dip img {
+    width: 700px;
+    height: 500px;
+    margin-left: -55px;
+}
+
+.dips {
+    display: flex;
+}
+
+.anchor {
+    display: flex;
+    width: 1px;
+    height: 1px;
+}
+
+footer {
+    background-color: #173c4c;
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+footer p {
+    font-size: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    line-height: 5px;
+    font-family: ubuntu;
+    font-weight: 100;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 250ms linear;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-color: #07142b;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.contacts a:hover {
+    color: #07142b;
+    cursor: pointer;
+}
