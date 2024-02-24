@@ -34,6 +34,7 @@
 
 <h1 align="center">Решение</h1>
 <h2 align="center">Файл index.html</h2>
+
 ```
 <!DOCTYPE html>
 
@@ -224,6 +225,7 @@
 
 
 <h2 align="center">Файл style.css</h2>
+
 ```
 body {
 
